@@ -1,0 +1,116 @@
+/* <style> @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap'); </style>
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* general */
+
+.list {
+    list-style: none;
+}
+.link {
+    list-style: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;  
+}
+
+/* header */
+
+.header {
+}
+.navigation {
+}
+
+.logo_studio{
+    color: #2E2F42;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.nav_link{
+
+}
+
+/*------------------------------------------------------------ index ------------------------------------------------------------*/
+
+.main {
+}
+.hero {
+}
+.hero_title {
+}
+.hero_button {
+}
+.features {
+}
+.features_title {
+}
+.features_lists {
+}
+.feature {
+}
+.text {
+}
+.wawd {
+}
+.wawd_title {
+}
+.wawd_lists {
+}
+.wawd_list {
+}
+.wawd_img {
+}
+.our_team {
+}
+.our_team_title {
+}
+.our_team_lists {
+}
+.our_team_list {
+}
+.our_team_img {
+}
+.name {
+}
+.direction {
+}
+
+/* footer */
+
+.footer {
+}
+.footer_text {
+}
+
+/*-------------------------------------------------------------- Portfolio --------------------------------------------------------------*/
+
+.portfolio {
+}
+.prtfolio-title {
+}
+.portfolio_button_lists {
+}
+.portfolio_button_list {
+}
+.portfolio_button {
+}
+.portfolio_lists {
+}
+.portfolio_list {
+}
+.portfolio_img {
+}
+.portfolio_img_title {
+}
+.portfolio_text {
+}
