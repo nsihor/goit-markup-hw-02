@@ -32,6 +32,34 @@ body {
 
 .main {
 }
+
+.visualy_hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.suptitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;   
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+
+.text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 /* header */
 
 .header {
@@ -44,7 +72,7 @@ body {
 }
 
 .logo {
-    font-family: var(--second_font)
+    font-family: var(--second_font);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -121,21 +149,12 @@ body {
 .features {
 }
 .features_title {
-
 }
 .features_lists {
 }
 .feature {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--dark);
 }
 .feature_text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
 /* What are we doing */
@@ -177,18 +196,8 @@ body {
 .our_team_img {
 }
 .name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--dark);
 }
 .direction {
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
-    letter-spacing: 0.02em;
 }
 
 /* footer */
@@ -197,9 +206,6 @@ body {
     background: var(--dark);
 }
 .footer_text {
-    font-size: 16px;
-    line-height: 1.5;   
-    letter-spacing: 0.02em;
     color: var(--accent);
 }
 
@@ -236,13 +242,6 @@ body {
 }
 
 .portfolio_button:hover, .portfolio_button:focus{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
     color: var(--light_title);
     background: var(--pressed_state);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -258,14 +257,6 @@ body {
 .portfolio_img {
 }
 .portfolio_img_title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;   
-    letter-spacing: 0.02em;
-    color: var(--dark);
 }
 .portfolio_text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
